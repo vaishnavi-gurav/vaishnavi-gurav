@@ -10,5 +10,12 @@ pipeline
           echo "buliding your project..."
       }
     }
+    stage("test")
+    {
+      steps
+      {
+          echo "testing your project..."
+      }
+    }
   }
 }
